@@ -7,8 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserFactory {
        // we gonna create a method that will return driver object
-        //this method will take one parametr-String parametr
-        //based on the value of the browser paramets
+        //this method will take one parameter-String parametr
+        //based on the value of the browser parameters
         //method will return corresponded webdriver object
         // if browser =chrome,then return chromedriver object
     public static WebDriver getDriver(String browser){
