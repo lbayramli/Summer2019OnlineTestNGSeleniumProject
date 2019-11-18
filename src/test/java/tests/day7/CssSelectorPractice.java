@@ -37,7 +37,7 @@ public class CssSelectorPractice {
 
         WebElement p = driver.findElement(By.cssSelector("[class='container'] > p"));
         System.out.println(p.getText());
-
+// . IS USED FOR CLASS NAME IN CSS
 driver.close();
     }
 }
