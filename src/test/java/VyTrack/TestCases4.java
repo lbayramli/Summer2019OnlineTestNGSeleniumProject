@@ -231,20 +231,20 @@ public class TestCases4 {
         WebElement datebox = driver.findElement(By.cssSelector("[class='datepicker-input hasDatepicker']"));
         datebox.click();
         datebox.sendKeys("Nov 18, 2021");
-        WebElement summary = driver.findElement(By.xpath("//span[contains(text(),'Daily every ')]"));
-        WebElement summary2 = driver.findElement(By.xpath("//span[contains(text(),'end by ')]"));
-        Assert.assertTrue(summary.isDisplayed());
-        Assert.assertTrue(summary2.isDisplayed());
-             /*
-             WebElement summaryall=driver.findElement(By.cssSelector("[data-name='recurrence-summary']"))  ;
+  WebElement summaryall=driver.findElement(By.cssSelector("[data-name='recurrence-summary']"))  ;
              String Actualsummary = summaryall.getText();
              String Expectedsummary= "Daily every 1 day, end by Nov 18, 2021";
              Assert.assertEquals(Actualsummary,Expectedsummary);
-                 */
 
-        //WebElement timebox=driver.findElement(By.cssSelector("[class='timepicker-input ui-timepicker-input']")) ;
-        // timebox.sendKeys("")
-
+              /*
+               WebElement summary = driver.findElement(By.xpath("//span[contains(text(),'Daily every ')]"));
+               WebElement summary2 = driver.findElement(By.xpath("//span[contains(text(),'end by ')]"));
+                     Assert.assertTrue(summary.isDisplayed());
+                     Assert.assertTrue(summary2.isDisplayed());
+                */
+                                                    
+                                                    
+              
     }
 
     @Test
